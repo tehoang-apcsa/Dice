@@ -16,9 +16,14 @@ void setup()
           bob.show() ;
           }
         }        
-    fill(233);
-    
-    text("Sum: " + sum, 240, 480);   
+    if (Math.random()*1 <= 0.5)
+            fill (0, 128, 128);
+         else 
+            fill (32, 87, 110);
+    rectMode(CENTER);
+    rect(250,20,460,30);
+    fill (255);
+    text("Sum: " + sum, 240, 20);   
     
   }
   
